@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(55, 42, 73);
+  color: white;
+
+  font-family: outfit;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  max-width: 20rem;
+}
+button {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.4rem 1.2rem;
+  background-color: #e9e9e9;
+}
+button:hover {
+  background-color: #ffffff;
+}
+button:active {
+  background-color: #d1cfcf;
+}
