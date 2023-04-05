@@ -1,8 +1,10 @@
 body {
   background-color: #16161e;
+
   color: white;
 
   font-family: outfit;
+  transition: all 0.2s ease-in-out;
 }
 .container {
   text-align: center;
